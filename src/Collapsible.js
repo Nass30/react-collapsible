@@ -231,6 +231,7 @@ class Collapsible extends Component {
           onClick={this.handleTriggerClick}
           style={this.props.triggerStyle && this.props.triggerStyle}
           onKeyPress={(event) => {
+            return ;
             const { key } = event;
             if (
               (key === ' ' &&
